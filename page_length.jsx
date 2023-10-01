@@ -3,8 +3,10 @@ if (app && app.name === "Adobe Illustrator") {
 
   if (document) {
     // get number of pages
-    const totalPage = document.artboards.length;
-    alert("the page is: " + totalPage);
+    const pageLength = document.artboards.length;
+    for (let i = 0; i <= pageLength; i++) {
+      alert("the page is: " + document.artboards[i]);
+    }
   } else {
     alert("No document is open!");
   }

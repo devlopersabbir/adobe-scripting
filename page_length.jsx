@@ -8,7 +8,7 @@ if (app && app.name === "Adobe Illustrator") {
     var pageLength = document.artboards.length;
     for (var i = 0; i < pageLength; i++) {
       var artboard = document.artboards[i];
-      var labelText = "Page " + (i + 1);
+    //   var labelText = "Page " + (i + 1);
 
       // create a new text frame
       var textFrame = document.textFrames.add();
